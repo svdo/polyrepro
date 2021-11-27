@@ -1,0 +1,6 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        org.clojure/tools.deps.alpha {:mvn/version "0.12.985"}}
+
+ :aliases {:test {:extra-paths []
+                  :extra-deps  {eu.someorg/comp1      {:local/root "../../components/comp1"}
+                                eu.someorg/proj1-base {:local/root "../../bases/proj1-base"}}}}}

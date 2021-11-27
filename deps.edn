@@ -1,4 +1,10 @@
 {:aliases  {:dev {:extra-paths ["development/src"]
                   :extra-deps {;; components
-                               eu.someorg/batch-mono      {:local/root "./components/comp1"}}}
+                               eu.someorg/batch-mono      {:local/root "./components/comp1"}
+                               
+                               ;; bases
+                               eu.someorg/proj1-base      {:local/root "./bases/proj1-base"}
+                               
+                               ;; projects
+                               eu.someorg/proj1           {:local/root "./projects/proj1"}}}
             :test {:extra-paths []}}}
